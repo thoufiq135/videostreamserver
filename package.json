@@ -1,0 +1,17 @@
+{
+  "name": "videostreamserver",
+  "version": "1.0.0",
+  "description": "\"streamin a video\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thoufiq",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
