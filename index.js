@@ -8,6 +8,9 @@ env.config();
 const port=process.env.port||7000;
 const filepath=path.join(__dirname,"song.mp4")
 app.use(cors())
+app.get("/",(req,res)=>{
+    res.send("<h1>hello world</h1>")
+})
 app.get("/video",(req,res)=>{
     const sata=fs.statSync(filepath)
     const filesize=sata.size
